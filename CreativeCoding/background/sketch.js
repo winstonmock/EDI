@@ -2,7 +2,7 @@ let gif;
 
  function preload(){
 
-   img = loadImage ('Assets/guy1.psd');
+   gif = loadImage ('Assets/giphy.gif');
  }
 
 function setup() {
@@ -20,7 +20,7 @@ function draw() {
 
 for (var y = 0; y < 2 * windowWidth;y += sideLen){
   for(var x = 0; x< 2 * windowWidth;x += sideLen){
-      image (img,x,y,sideLen,sideLen);
+      image (gif,x,y,sideLen,sideLen);
   }
 }
 
